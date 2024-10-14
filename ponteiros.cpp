@@ -122,25 +122,25 @@ int main(){
     
 
     // 24) Imprima os elementos de (3) a partir variável do vetor utilizando a notação [] (colchetes)
-    for(int i=0;i<TAM-1;i++){
+    for(int i=0;i<TAM;i++){
         cout<<vetor[i]<<" ";
     }
     
-    cout<<vetor[TAM-1]<<endl;
+    cout<<endl;
 
     // 25) Imprima os elementos de (3) a partir variável do vetor utilizando a notação ponteiro/deslocamento
     // Ou seja, você NÃO deve efetivamente alterar o valor do ponteiro inicial de (3)
-    for(int i=0;i<TAM-1;i++){
+    for(int i=0;i<TAM;i++){
         cout<<*(vetor+i)<<" ";
     }
-    cout<<vetor[TAM-1]<<endl;
+    cout<<endl;
 
     // 26) Imprima os elementos de (3) utilizando a variável (2) e a notação ponteiro/deslocamento
     // Ou seja, você NÃO deve efetivamente alterar o valor do ponteiro inicial de (2)
-    for(int i=0;i<TAM-1;i++){
+    for(int i=0;i<TAM;i++){
         cout<<*(c+i)<<" ";
     }
-    cout<<vetor[TAM-1]<<endl;
+    cout<<endl;
 
     // 27) Atribua o ENDEREÇO da última posição de (3) à variável declarada em (2)
     c=&vetor[TAM-1];
